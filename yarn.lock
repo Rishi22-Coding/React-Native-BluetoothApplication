@@ -2581,6 +2581,11 @@
   dependencies:
     "safe-buffer" "~5.1.1"
 
+"convert-string@^0.1.0":
+  "integrity" "sha1-ec5BqbsNA7z3LNxqjzxW+7xkQQo="
+  "resolved" "https://registry.npmjs.org/convert-string/-/convert-string-0.1.0.tgz"
+  "version" "0.1.0"
+
 "copy-descriptor@^0.1.0":
   "integrity" "sha1-Z29us8OZl8LuGsOpJP1hJHSPV40="
   "resolved" "https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz"
@@ -3720,6 +3725,11 @@
   "integrity" "sha512-47xSUiQioGaB96nqtp5/q55m0aBQSQdyIloMOc/x+QVTDZLNmXE892IIDrJ0hM1A5vcNUDD5tDffkSP5lCaIIA=="
   "resolved" "https://registry.npmjs.org/image-size/-/image-size-0.6.3.tgz"
   "version" "0.6.3"
+
+"immutability-helper@^3.1.1":
+  "integrity" "sha512-Q0QaXjPjwIju/28TsugCHNEASwoCcJSyJV3uO1sOIQGI0jKgm9f41Lvz0DZj3n46cNCyAZTsEYoY4C2bVRUzyQ=="
+  "resolved" "https://registry.npmjs.org/immutability-helper/-/immutability-helper-3.1.1.tgz"
+  "version" "3.1.1"
 
 "import-fresh@^2.0.0":
   "integrity" "sha1-2BNVwVYS04bGH53dOSLUMEgipUY="
@@ -5868,6 +5878,16 @@
   "resolved" "https://registry.npmjs.org/react-native-ble-manager/-/react-native-ble-manager-8.0.2.tgz"
   "version" "8.0.2"
 
+"react-native-bluetooth-devices@^0.1.7":
+  "integrity" "sha512-y/fOpBKOLILCUBA6ba6izKe36OPc+fWBx/xUSB37ck1UGyZwDRyjyqg40BnseWM1RstaHI3i2qhoxef4IAahpQ=="
+  "resolved" "https://registry.npmjs.org/react-native-bluetooth-devices/-/react-native-bluetooth-devices-0.1.7.tgz"
+  "version" "0.1.7"
+
+"react-native-bluetooth-state-manager@^1.3.3":
+  "integrity" "sha512-hE4oG6/jFFIQMz9p0gitV90k61MAddJ0Ri86x9BvytMbdfreeeOU29eJwJWrM+PsNJWUH0w7ycbisj9i4RXp0A=="
+  "resolved" "https://registry.npmjs.org/react-native-bluetooth-state-manager/-/react-native-bluetooth-state-manager-1.3.3.tgz"
+  "version" "1.3.3"
+
 "react-native-codegen@^0.0.13":
   "integrity" "sha512-rCh1P+s0Q4N6vNgS97ckafbhJRztz22+0l0VZoyQC06F07J98kI5cUByH0ATypPRIdpkMbAZc59DoPdDFc01bg=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.13.tgz"
@@ -5883,7 +5903,12 @@
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz"
   "version" "0.0.6"
 
-"react-native@*", "react-native@>=0.50", "react-native@0.68.1":
+"react-native-uuid-generator@^6.1.1":
+  "integrity" "sha512-jWF0wiGTUTkCBTpspUZatC7wlhjN3GRbW9YblaxxpuMuhk0DEOQXOp1qgsDd2vLTL8GsM3i7Hnatvfj1kwf88w=="
+  "resolved" "https://registry.npmjs.org/react-native-uuid-generator/-/react-native-uuid-generator-6.1.1.tgz"
+  "version" "6.1.1"
+
+"react-native@*", "react-native@>= 0.44", "react-native@>=0.47", "react-native@>=0.50", "react-native@0.68.1":
   "integrity" "sha512-5gfvslo5NO2Ece2k/q41eVOK3ca4u1QAOf+qM+auvOiUA4/QR5Yr0WfSGbRpUr2GaFgv7qP11F4+elCravg7uQ=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.68.1.tgz"
   "version" "0.68.1"
@@ -5952,7 +5977,7 @@
     "react-shallow-renderer" "^16.13.1"
     "scheduler" "^0.20.2"
 
-"react@^16.0.0 || ^17.0.0", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0", "react@17.0.2":
+"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
